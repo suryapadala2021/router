@@ -1,0 +1,38 @@
+/* Write your CSS code here */
+.wave-logo {
+  height: 26px;
+  width: 26px;
+  margin-right: 5px;
+}
+.title {
+  font-family: 'Roboto';
+  color: #12022f;
+  font-weight: 600;
+  margin-right: 10px;
+}
+.nav-bar {
+  display: flex;
+  align-items:center;
+  width:100%;
+}
+.nav-logo-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-grow: 1;
+}
+.nav-link-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+@media screen and (min-width:768px){
+    .wave-logo{
+        height:35px;
+        width:35px
+    }
+    .title{
+        font-size:22px;
+        margin-right:20px
+    }
+}
